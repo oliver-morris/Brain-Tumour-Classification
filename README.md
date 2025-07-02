@@ -10,7 +10,7 @@ a full network. This experiment was implemented in Google Colab using Python and
 feature extraction. Gaussian noise and masks were applied to the dataset to implement causal learning
 and ensure that the model only learned representations from the causal features. The final model was a
 3-way, 5-shot design, and many of the hyperparameters had been tuned through different optimisation
-methods. The model recorded an accuracy of 96.11% across the test images, which is comparable
+methods. The model recorded an accuracy of 97.44% across the test images, which is comparable
 to many other designs created in similar research showing the applicability of few-shot learning for
 this task. The model could be further improved with a greater analysis of the dataset and improved
 fine-tuning methods, as well as a newer version of the ResNet pre-trained model such as ResNet50V2.
