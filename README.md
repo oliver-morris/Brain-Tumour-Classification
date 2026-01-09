@@ -1,7 +1,9 @@
 # Brain-Tumour-Classification
 A few-shot learning approach to brain tumour classification
 
-# Abstract
+---
+
+### Abstract
 This project aims to use few-shot learning for brain tumour classification from MRI scans. The
 diagnosis of brain tumours can be difficult, so an AI model that can give a second opinion after a doctor
 would be very useful. Prototypical learning is the few-shot learning strategy implemented alongside
@@ -16,7 +18,9 @@ to many other designs created in similar research showing the applicability of f
 this task. The model could be further improved with a greater analysis of the dataset and improved
 fine-tuning methods, as well as a newer version of the ResNet pre-trained model such as ResNet50V2.
 
-# Details
+---
+
+### Details
 Uses the Figshare dataset: https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
 Needs further improvement as did not test too well when ran on a different dataset (Kaggle was used in testing)
 Also test with more computationally expensive networks as this was limited by the free version of Google Collab
